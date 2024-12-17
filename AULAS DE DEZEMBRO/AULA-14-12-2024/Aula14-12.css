@@ -1,6 +1,5 @@
 body {
     background-image: url('https://i.redd.it/new-and-slightly-older-discord-login-screen-as-a-png-v0-nnd20frfve3d1.png?width=1600&format=png&auto=webp&s=53d372d13bd1af47f24b8069e239aa3870fc6b78');
-    
     color: white;
 }
 
@@ -19,7 +18,7 @@ body {
 
 .botao{
     background-color: rgba(95, 149, 242, 0.821);
-    width: 370px;
+    width: 400px;
     border: 0;
     padding: 10px;
     text-align: center;
@@ -41,7 +40,7 @@ form{
 }
 
 input {
-    width: 350px;
+    width: 380px;
     padding: 10px;
     background-color: #262525;
     border: 0;
@@ -60,7 +59,7 @@ h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
     top: 15px;
-    left: 105px;
+    left: 120px;
 }
 a {
     color: rgb(90, 146, 249);
@@ -76,10 +75,10 @@ p {
 }
 h6 {
     color: darkgrey;
-    font-size: 12px;
+    font-size: 14px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    left: 65px;
+    left: 75px;
 }
 span {
     color: rgb(248, 124, 124);
@@ -127,10 +126,7 @@ section > h6 {
     font-weight: lighter;
 }
 section > a {
-    position: absolute;
-    top: 82%;
-    right: 0;
+    position: relative;
     left: 66%;
-    bottom: 0;
-    margin: auto;
+    bottom: 110px;
 }
