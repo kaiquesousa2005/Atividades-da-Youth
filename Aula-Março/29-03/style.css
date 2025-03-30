@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background-color: brown;
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 100%;
+    margin-top: 15px;
+    border: 0;
+    background-color: blue;
+    width: 100px;
+    padding: 8px;
+    cursor: pointer;
+    color: white;
+}
+.calculadora {
+    padding: 15px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+}
+
+input{
+    padding: 8px;
+}
+label{
+    padding: 4px;
+    font-size: 18px;
+}

@@ -47,6 +47,7 @@ input {
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 15px;
+    color: white;
 }
 label {
     color: rgba(209, 209, 209, 0.815);

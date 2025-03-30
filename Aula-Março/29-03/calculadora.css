@@ -1,0 +1,20 @@
+.calculadora {
+    position: absolute;
+    top: 25%;
+    left: 42.5%;
+    right: 42.5%;
+    bottom: 25%;
+    border: 2px solid black;
+    padding: 12px;
+    background-color: bisque;
+}
+
+p {
+    width: 180px;
+    height: 40px;
+    border: 2px solid gray;
+}
+
+button {
+    padding: 15px;
+}

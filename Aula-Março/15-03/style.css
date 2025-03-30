@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    
+}
+button {
+    list-style: none;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-self: center;
+}
+h1, button {
+    margin-bottom: 10px;
+    text-align: center;
+}
