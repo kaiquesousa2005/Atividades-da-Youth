@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    width: 50%;
+    height: 60%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.119);
+}
+
+.calculadora {
+    padding: 20px;
+    flex: 1;
+}
+
+.topo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clear {
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blocos {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.primeiro {
+    grid-column: span 2;
+}
+
+.calculadora input {
+    padding: 5px;
+}
+
+.calculadora label {
+    color: rgb(78, 78, 78);
+}
+
+.calcular {
+    border: none;
+    background-color: hsl(61, 70%, 52%);
+    border-radius: 50px;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: 70%;
+}
+
+.calcular img {
+    width: 12px;
+}
+
+.resultado {
+    padding: 20px;
+    background-color: hsl(202, 55%, 16%);
+    flex: 1;
+    border-radius: 0px 8px 8px 64px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resultado h2 {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.resultado p {
+    text-align: center;
+    color: rgba(245, 245, 245, 0.574);
+    margin-top: 12px;
+}
+
+.resultado img {
+    width: 130px;
+}
